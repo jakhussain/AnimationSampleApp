@@ -1,0 +1,10 @@
+<Alloy>
+	<Window title="Animation Sample" class="container">
+		<Button title="Open" top="20" onClick="OpenView"></Button>
+		<View id="belowView" backgroundColor="green" top="390" onClick="ViewClick" layout="vertical">
+			<Label text="11111"></Label>
+			<Label text="22222"></Label>
+			<Label text="33333"></Label>
+		</View>
+	</Window>
+</Alloy>
